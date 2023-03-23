@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main class="container-principal">
+        <img src="imgs/background.png" alt="Background" class="container-principal__imagem">
+        <div class="container-secundario">
+            <p class="login__texto">Já possui uma conta? <a href="#" class="login__link"> Login</a></p>
+            <h1 class="container__titulo">Crie sua conta</h1>
+
+            <form class="formularios">
+                <label for="username">Nome de Usuário</label>
+                <input type="text" name="username">
+
+                <label for="email">Email</label>
+                <input type="email" name="email">
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+
+                <input type="checkbox" name="checkbox" class="formularios__checkbox">
+                <label for="checkbox" class="formularios__checkbox--texto">Ao criar uma conta, você concorda com os Termos de Serviço e política de privacidade</label>
+            </form>
+                <input type="submit" value="Criar conta" class="botao__inscrever">
+                
+                    <p class="container__texto">ou</p>
+
+                    <p class="container__opcoes--mobile"><a href="#">Outras formas de login</a></p>
+
+                    <ul class="lista__opcoes-login">
+                        <li class="opcoes-login"><img src="imgs/google.png" alt="Google" class="opcoes-login__imagem"><p class="opcoes-login__texto"><a href="#" class="opcoes-login__link">Continue com Google</a></p></li>
+
+                        <li class="opcoes-login"><img src="imgs/facebook.png" alt="Facebook" class="opcoes-login__imagem"><p class="opcoes-login__texto"><a href="#" class="opcoes-login__link">Continue com Facebook</a></p></li>
+                    </ul>
+                 
+                </div>
+        </div>
+    </main>
+</body>
+</html>
